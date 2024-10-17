@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Camera App</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Camera App</h1>
+        <button id="open-camera" class="btn">Open Camera</button>
+        <div id="camera-stream" class="camera-view hidden">
+            <video id="video" autoplay></video>
+            <button id="take-photo" class="btn">Take Photo</button>
+        </div>
+        <canvas id="canvas" class="hidden"></canvas>
+    </div>
+    <script src="renderer.js"></script>
+</body>
+</html>
